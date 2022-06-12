@@ -1,0 +1,204 @@
+{
+    "intents": [
+        {
+            "tag": "Intro",
+            "patterns": [
+                "hi",
+                "how are you",
+                "is anyone there",
+                "hello",
+                "whats up",
+                "hey",
+                "yo",
+                "listen",
+                "please help me",
+                "i am learner from",
+                "i belong to",
+                "aiml batch",
+                "aifl batch",
+                "i am from",
+                "my pm is",
+                "blended",
+                "online",
+                "i am from",
+                "hey ya",
+                "talking to you for first time"
+            ],
+            "responses": [
+                "Hello! how can i help you ?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Exit",
+            "patterns": [
+                "cu",
+                "thank you",
+                "thanks",
+                "cya",
+                "see you",
+                "later",
+                "see you later",
+                "goodbye",
+                "i am leaving",
+                "have a Good day",
+                "you helped me",
+                "thanks a lot",
+                "thanks a ton",
+                "you are the best",
+                "great help",
+                "too good",
+                "you are a good learning buddy"
+            ],
+            "responses": [
+                "I hope I was able to assist you, Good Bye"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Bot",
+            "patterns": [
+                "what is your name",
+                "who are you",
+                "name please",
+                "when are your hours of opertions",
+                "what are your working hours",
+                "hours of operation",
+                "working hours",
+                "hours"
+            ],
+            "responses": [
+                "I am iNeuron, Your personal Assistant. I am Available 24/7"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Profane",
+            "patterns": [
+                "what the hell",
+                "bloody stupid bot",
+                "do you think you are very smart",
+                "screw you",
+                "i hate you",
+                "you are stupid",
+                "jerk",
+                "you are a joke",
+                "useless piece of shit",
+                "Fuck",
+                "get lost"
+            ],
+            "responses": [
+                "Please use respectful words"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "DL",
+            "patterns": ["what is deep learning", 
+                "unable to understand deep learning",
+                "explain me how deep learning works",
+                "i am not able to understand deep learning",
+                "not able to understand neural nets",
+                "very diffult to understand neural nets",
+                "unable to understand neural nets",
+                "ann", 
+                "artificial intelligence", 
+                "artificial neural networks",
+                "weights",
+                "activation function",
+                "hidden layers",
+                "softmax",
+                "sigmoid",
+                "relu",
+                "otimizer",
+                "forward propagation",
+                "backward propagation",
+                "epochs",
+                "epoch",
+                "what is an epoch",
+                "adam",
+                "sgd"],
+         "responses": [
+            "Deep learning is a type of machine learning and artificial intelligence (AI) that imitates the way humans gain certain types of knowledge. Deep learning is an important element of data science, which includes statistics and predictive modeling.It includes epochs, nueral networks and other concepts. For more information: Please refer to  https://www.youtube.com/user/krishnaik06"
+        ],
+         "context_set": ""
+        },
+        {
+            "tag": "Ticket",
+            "patterns": [
+                "my problem is not solved",
+                "you did not help me",
+                "not a good solution",
+                "bad solution",
+                "not good solution",
+                "no help",
+                "wasted my time",
+                "useless bot",
+                "create a ticket"
+            ],
+            "responses": [
+                "Transfering the request to your Mentor"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "ML",
+            "patterns": ["i am not able to understand svm", 
+                "explain me how machine learning works",
+                "i am not able to understand naive bayes",
+                "i am not able to understand logistic regression",
+                "i am not able to understand ensemble techb=niques",
+                "i am not able to understand knn",
+                "i am not able to understand knn imputer",
+                "i am not able to understand cross validation",
+                "i am not able to understand boosting",
+                "i am not able to understand random forest",
+                "i am not able to understand ada boosting",
+                "i am not able to understand gradient boosting",
+                "machine learning",
+                "ML",
+                "I want a question regarding ml",
+                "SL", 
+                "supervised learning",
+                "knn",
+                "logistic regression",
+                "regression",
+                "classification",
+                "naive bayes",
+                "nb",
+                "ensemble techniques",
+                "bagging",
+                "boosting",
+                "ada boosting",
+                "ada",
+                "gradient boosting",
+                "hyper parameters"
+            ],
+            "responses": [
+                "Machine Learning is the field of study that gives computers the capability to learn without being explicitly programmed.Based on the methods and way of learning, machine learning is divided into mainly four types, which are: Supervised Machine Learning, Unsupervised Machine Learning, Semi-Supervised Machine Learning and Reinforcement Learning. For further Machine Learning Queries, Please refer: https://youtube.com/playlist?list=PLZoTAELRMXVPBTrWtJkn3wWQxZkmTXGwe"
+            ],
+            "context_set": ""
+           },
+           {
+            "tag":"Triangle",
+            "patterns":[
+                "How to find the area of triangle?",
+                "Heron's Formula",
+                "Triangle",
+                "Area of a triangle",
+                "Area of scalene triangle",
+                "Area of right angled triangle",
+                "triangle formulae",
+                "i am not able to understand heron's formula",
+                "What is area of triangle found",
+                ""
+            ],
+            "responses":[
+                 "Area of triangle is determined by two formulae. One is (b*h)/2 and other one is Heron's formula i.e. A = sqrt(s(s-a)(s-b)(s-c)).",
+                 "Please refer to : https://youtu.be/rRTXKQpblEc"
+            ],
+            "context_set": ""
+           }
+
+    ]
+}

@@ -1,0 +1,8 @@
+flask 
+tensorflow
+warnings
+nltk
+pickle
+json
+numpy
+random
