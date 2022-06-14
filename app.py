@@ -6,7 +6,7 @@ app.static_folder = 'static'
 
 @app.route("/")
 def home():
-    return render_template("index.html")
+    return render_template("chatwindow.html")
 
 @app.route("/get")
 def get_bot_response():
